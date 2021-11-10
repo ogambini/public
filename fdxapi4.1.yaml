@@ -6,6 +6,8 @@ info:
 servers:
   - url: 'https://api.fi.com/fdx/v4'
     description: Financial Data Exchange V4.1 API
+  - url: 'https://{environment}.fi.com/fdx/v4'
+    description: Financial Data Exchange V4.1 API
 paths:
   /accounts:
     get:
