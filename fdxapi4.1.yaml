@@ -4,10 +4,10 @@ info:
   title: FDX V4.1 for CodeGen
   description: Financial Data Exchange V4.1 API modified to support codegen tools. See https://financialdataexchange.org/pages/fdx-api for more information.
 servers:
-  - url: 'https://api.fi.com/fdx/v4'
+  - url: 'https://api.fi.com/fdx/v4121212122'
     description: Financial Data Exchange V4.1 API
   - url: 'https://{environment}.fi.com/fdx/v4'
-    description: Financial Data Exchange V4.1 API
+    description: Using variables
 paths:
   /accounts:
     get:
